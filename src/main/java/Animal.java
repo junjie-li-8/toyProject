@@ -1,4 +1,4 @@
-public class Animals {
+public class Animal {
     public void animalSound() {
         System.out.println("The animal makes a sound");
     }
@@ -10,8 +10,14 @@ public class Animals {
 }
 
 class Pig extends Animal {
-    public void animalSoundSound() {
-        System.out.println("The pig says: wee wee");
+    public void animalSound() {
+        try{
+            System.out.println("The pig says: wee wee");
+        }
+        catch (Exception e){
+
+        }
+
     }
 }
 
