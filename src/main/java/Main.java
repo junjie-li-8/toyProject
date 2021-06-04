@@ -1,3 +1,5 @@
+package ljj;
+
 public class Main {
     public static void testDD(){
         int count= 1+1+
